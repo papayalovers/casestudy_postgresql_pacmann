@@ -147,7 +147,7 @@ WITH total_funnel_count AS (
 		website_session_id,
 		MAX(
 			CASE
-				WHEN pageview_url = '/lander-01' THEN 1 ELSE 0
+				WHEN pageview_url = '/lander-1' THEN 1 ELSE 0
 			END
 		) AS landing_pg,
 		MAX(
